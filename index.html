@@ -55,7 +55,7 @@
             <h2>1. Introduction</h2>
             <p>The relationship between caffeine consumption and productivity has been documented since the
                 discovery of coffee in 850 CE <i>[1]</i>. However, traditional models fail to explain the
-                <i><dfn>Afternoon Paradox</dfn></i> — the phenomenon whereby productivity decreases inversely
+                <dfn>Afternoon Paradox</dfn> — the phenomenon whereby productivity decreases inversely
                 with coffee consumption after 2:00 PM local time.
             </p>
 
@@ -75,11 +75,11 @@
             <h3>2.1 Quantum Coffee Preparation</h3>
             <p>The experimental setup was revised to enhance clarity and safety protocols. The original method:
             </p>
-            <del>Grinding beans manually in the presence of a magnetic field</del>
+            <p><del>Grinding beans manually in the presence of a magnetic field</del></p>
             <p>was replaced with:</p>
-            <ins>Automated grinding under cryogenic stabilization to preserve entanglement integrity</ins>
+            <p><ins>Automated grinding under cryogenic stabilization to preserve entanglement integrity</ins></p>
             <p>Coffee beans were subjected to controlled quantum entanglement using the Globocorp <abbr
-                    title="Quantum-Entangled Dinner">QED</abbr>-3000. The process involved:</p>
+                    title="Quantum-Entanglement Device">QED</abbr>-3000. The process involved:</p>
             <ol>
                 <li>Pre-treatment with coherent photon bombardment (λ = 632.8 nm)</li>
                 <li>Grinding at precisely 77 K to maintain quantum states</li>
@@ -104,13 +104,15 @@
                     <b>Magnetic confinement:</b> 0.9 T active-field stabilizer<br>
                     <b>Photon source:</b> Helium-Neon laser, λ = 632.8 nm, power 5 mW
                 </p>
-            </details>
-            <p><strong>Example replicate command (experimental automation):</strong></p>
-            <pre><code>./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json</code></pre>
 
-            <p>Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to cancel the terminal if you need to abort the run.</p>
+                <p><strong>Example replicate command (experimental automation):</strong></p>
+                <pre><code>./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json</code></pre>
+
+                <p>Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to cancel the terminal if you need to abort the run.</p>
+            </details>
             <figure>
-                <img src="media/image1.png" alt="Coffee Shop Interior">
+                <img src="media/image1.png" width="400" height="300"
+                    alt="Massive Coffee Shop Interior with the quantum entanglement apparatus centered behind the counter">
                 <figcaption><strong>Figure 1:</strong> Schematic representation of the quantum coffee
                     preparation apparatus. The entanglement chamber (center) maintains coherence through
                     magnetic confinement.</figcaption>
@@ -122,7 +124,7 @@
             <p>Analysis revealed significant improvements across all measured parameters:</p>
             <table>
                 <caption>Table 1: Productivity improvements by group</caption>
-                <colgroup>
+                <colgroup>  
                     <col>
                     <col>
                     <col>
@@ -240,13 +242,16 @@
                 <label for="Coffee">Favorite Coffee:</label>
 
                 <select name="Coffee" id="Coffee">
-                    <optgroup label="Milk-based">
+                    <optgroup label="Common">
                         <option value="latte">Latte</option>
                         <option value="cappuccino">Cappuccino</option>
-                    </optgroup>
-                    <optgroup label="Espresso-based">
-                        <option value="espresso">Espresso</option>
                         <option value="mocha">Mocha</option>
+                        <option value="espresso">Espresso</option>
+                    </optgroup>
+                    <optgroup label="Niche or rare">
+                        <option value="flash brew">Flash Brew</option>
+                        <option value="turkish coffee">Turkish Coffee</option>
+                        <option value="egg coffee">Egg Coffee</option>
                     </optgroup>
                 </select><br>
 
@@ -267,11 +272,11 @@
     </main>
     <hr>
     <footer>
-        <p><i>Correspondence should be directed to:<br>
+        <address><i>Correspondence should be directed to:<br>
                 Dr. Wilhelmina Quark<br>
                 Department of Applied Caffeination, Globocorp Research Institute<br>
                 42 Quantum Way, New New York, NY 10001<br><a
-                    href="mailto:wquark@globocorp.com">wquark@globocorp.com</a></i></p>
+                    href="mailto:wquark@globocorp.com">wquark@globocorp.com</a></i></address>
         <p><small>© 2025 Globocorp Research Institute. This research was funded by Grant #QC-2025-42 from the Department
                 of Applied Caffeination.</small></p>
     </footer>
